@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
     $message = mysqli_real_escape_string($con, $_POST['message']);
 
     // set timezone
-    date_default_timezone_set('West_Central_Africa');
+    date_default_timezone_set('Africa/Lagos');
     $time = date("h:i:s a", time()); //the time() function gives us the current time 
 
     //validate input
